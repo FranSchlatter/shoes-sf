@@ -431,7 +431,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid brown;
+    border: 1px solid rgb(96, 139, 30);
     box-shadow: 0px 0px 4px black;
     width: 150px;
     margin: 10px;
@@ -451,16 +451,17 @@ body {
 
 .most-sellers-prod h4{
     font-size: 20px;
-    color: brown;
+    color: rgb(96, 139, 30);
 }
 
 .most-sellers-prod:hover {
-    box-shadow: 0px 0px 14px black;
+    border-radius: 0px 0px 30px 30px ;
+    box-shadow: 0px 0px 8px black;
 }
 
 .pack-price-final {
     width: 100%;
-    background-color: brown;
+    background-color: rgb(96, 139, 30);
     color: beige;
     letter-spacing: 4px;
     text-align: center;
@@ -542,6 +543,11 @@ body {
 
 
 /* FOOTER */
+
+footer {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
 
 footer div div img {
     width: 30px;
