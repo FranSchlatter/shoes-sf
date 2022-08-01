@@ -509,32 +509,59 @@ body {
 }
 
 .about-us h2{
-    width: 100%;
-    background-color: brown;
+    margin: auto;
+    padding: 160px 0px;
+    width: 85%;
     color: beige;
     letter-spacing: 4px;
+    font-size: 24px;
     text-align: center;
 }
 
 .about-us h4{
-    width: 100%;
-    letter-spacing: 2px;
+    margin: auto;
+    color: beige;
+    font-size: 16px;
+    width: 85%;
     text-align: center;
 }
 
 .about-us h1{
+    margin: 0px;
     width: 100%;
     letter-spacing: 4px;
     font-size: 14px;
     padding: 14px 0px;
     text-align: center;
-    background-color: green;
+    background-color: rgb(20, 95, 20);
     color: beige;
 }
 
 .about-us h1 a{
     text-decoration: none;
     color: beige;
+}
+
+.about-us .imagen-fondo{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+}
+.about-us .imagen-fondo2{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/dbc6c0d5-abed-4886-ab97-ff2e4711085f/site-oficial-de-nike.png);
+}
+.about-us .imagen-fondo3{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1612892158094-a4e23361afad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHphcGF0b3xlbnwwfDF8MHx8&w=1000&q=80);
 }
 
 
@@ -729,6 +756,30 @@ footer h4 {
         width: 80%;
     }
 
+    .about-us h2{
+        width: 90%;
+        margin: auto;
+        padding: 200px 0px;
+    }
+    .about-us h4{
+        margin: auto;
+        width: 90%;
+        padding: 200px 0px;
+    }
+
+    .about-us .imagen-fondo{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.pinimg.com/736x/4a/c9/b0/4ac9b09fea2c191829bf875dd5ad1ac3.jpg);
+    }
+    .about-us .imagen-fondo2{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.pinimg.com/originals/e4/86/f1/e486f17f4912465d5185b47f902d7609.jpg);
+    }
+    .about-us .imagen-fondo3{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://fondosmil.com/fondo/19871.jpg);
+    }
+
 }
 
 @media (min-width: 1281px) {
@@ -802,8 +853,29 @@ footer h4 {
     .seccion-img-shoes {
         height: 350px;
     }
-    .about-us {
-        padding: 24px 0px;
+
+    .about-us h2{
+        width: 90%;
+        margin: auto;
+        padding: 200px 0px;
+    }
+    .about-us h4{
+        margin: auto;
+        width: 90%;
+        padding: 200px 0px;
+    }
+
+    .about-us .imagen-fondo{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.pinimg.com/736x/4a/c9/b0/4ac9b09fea2c191829bf875dd5ad1ac3.jpg);
+    }
+    .about-us .imagen-fondo2{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.pinimg.com/originals/e4/86/f1/e486f17f4912465d5185b47f902d7609.jpg);
+    }
+    .about-us .imagen-fondo3{
+        height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://fondosmil.com/fondo/19871.jpg);
     }
 }
   
