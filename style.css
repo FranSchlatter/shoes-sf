@@ -445,11 +445,14 @@ body {
 }
 
 .most-sellers-prod p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     padding: 8px;
     font-size: 14px;
 }
 
 .most-sellers-prod h4{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(96, 139, 30);
 }
@@ -519,6 +522,7 @@ body {
 }
 
 .about-us h4{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: auto;
     color: beige;
     font-size: 16px;
