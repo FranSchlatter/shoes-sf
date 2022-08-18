@@ -60,7 +60,7 @@ function showProd () {
         zapa3: zapa3
     }];
     localStorage.setItem('zapa', JSON.stringify(zapasss));
-    window.location="/showprod.html";
+    window.location="https://franschlatter.github.io/showprod.html";
 };
 
 function loadProd (){
