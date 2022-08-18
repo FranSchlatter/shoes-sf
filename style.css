@@ -502,8 +502,54 @@ body {
 }
 
 
+/* Show Product */
 
+.show-prod {
+ width: 90%;
+ margin: auto;
+ margin-top: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+ border: 0.5px solid grey;
+ border-radius: 20px;
+ overflow: hidden;
+ font-family: Arial, Helvetica, sans-serif;
+}
 
+.show-prod img{
+    width: 100%;
+}
+
+.show-prod .div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.show-prod .div2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.show-prod .div2 *{
+    margin: 5px;
+}
+
+.middle{
+    text-align: center;
+}
+
+.show-prod button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(121, 121, 209);
+    border: none;
+    font-weight: 700;
+}
 
 /* ABOUT US */
 
@@ -880,5 +926,8 @@ footer h4 {
         height: 800px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://fondosmil.com/fondo/19871.jpg);
     }
+    .show-prod {
+        width: 30%;
+       }
 }
   
