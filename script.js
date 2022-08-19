@@ -60,7 +60,7 @@ function showProd () {
         zapa3: zapa3
     }];
     localStorage.setItem('zapa', JSON.stringify(zapasss));
-    window.location="https://franschlatter.github.io/showprod.html";
+    window.location="https://franschlatter.github.io/shoes-sf/showprod.html";
 };
 
 function loadProd (){
