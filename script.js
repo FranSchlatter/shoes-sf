@@ -29,7 +29,7 @@ cerrarmenu2.addEventListener("click", () => {
 
 const shoes = [];
 
-let peticion = fetch("/catalogo.json");
+let peticion = fetch("https://franschlatter.github.io/shoes-sf/catalogo.json");
 
 peticion
     .then(res => res.json())
